@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.UTCONNECT" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#008080</item>
+        <item name="colorSecondary">#004D40</item>
+        <item name="android:statusBarColor">#F8F9FA</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
