@@ -34,7 +34,11 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
+<<<<<<< HEAD
 fun UTCONNECTTheme(
+=======
+fun UTConnectTheme(
+>>>>>>> 2a84b58246ea5ec549d55d9ef95d8801c3333cba
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

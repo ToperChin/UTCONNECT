@@ -27,13 +27,25 @@ android {
             )
         }
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2a84b58246ea5ec549d55d9ef95d8801c3333cba
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+<<<<<<< HEAD
     kotlinOptions {
         jvmTarget = "11"
     }
+=======
+    
+    kotlinOptions {
+        jvmTarget = "11"
+    }
+
+>>>>>>> 2a84b58246ea5ec549d55d9ef95d8801c3333cba
     buildFeatures {
         compose = true
     }
@@ -41,6 +53,13 @@ android {
 
 dependencies {
     implementation(libs.androidx.core.ktx)
+<<<<<<< HEAD
+=======
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    implementation(libs.androidx.constraintlayout)
+    
+>>>>>>> 2a84b58246ea5ec549d55d9ef95d8801c3333cba
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
@@ -48,6 +67,7 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+<<<<<<< HEAD
     
     // Iconos extendidos para AddAPhoto
     implementation("androidx.compose.material:material-icons-extended")
@@ -67,6 +87,19 @@ dependencies {
     implementation("io.ktor:ktor-client-android:3.0.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
     
+=======
+    implementation(libs.androidx.compose.material.icons.extended)
+    implementation(libs.androidx.navigation.compose)
+
+    // Supabase
+    implementation(platform(libs.supabase.bom))
+    implementation(libs.supabase.postgrest)
+    implementation(libs.supabase.auth)
+    implementation(libs.supabase.realtime)
+    implementation(libs.supabase.storage)
+    implementation(libs.ktor.client.android)
+
+>>>>>>> 2a84b58246ea5ec549d55d9ef95d8801c3333cba
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

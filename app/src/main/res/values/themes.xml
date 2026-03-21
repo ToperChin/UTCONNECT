@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <style name="Theme.UTCONNECT" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">#008080</item>
         <item name="colorSecondary">#004D40</item>
         <item name="android:statusBarColor">#F8F9FA</item>
         <item name="android:windowLightStatusBar">true</item>
+=======
+    <style name="Theme.UTConnect" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/purple_500</item>
+>>>>>>> 2a84b58246ea5ec549d55d9ef95d8801c3333cba
     </style>
 </resources>

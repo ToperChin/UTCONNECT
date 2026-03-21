@@ -1,3 +1,10 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">UTCONNECT</string>
 </resources>
+=======
+    <string name="app_name">UTConnect</string>
+    <string name="welcome_message">Bienvenido a UTConnect</string>
+    <string name="login_button">Iniciar sesión</string>
+</resources>
+>>>>>>> 2a84b58246ea5ec549d55d9ef95d8801c3333cba
