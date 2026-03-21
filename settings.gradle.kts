@@ -1,6 +1,5 @@
 pluginManagement {
     repositories {
-<<<<<<< HEAD
         google {
             content {
                 includeGroupByRegex("com\\.android.*")
@@ -8,9 +7,6 @@ pluginManagement {
                 includeGroupByRegex("androidx.*")
             }
         }
-=======
-        google()
->>>>>>> 2a84b58246ea5ec549d55d9ef95d8801c3333cba
         mavenCentral()
         gradlePluginPortal()
     }
@@ -22,10 +18,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-<<<<<<< HEAD
 
-rootProject.name = "UTCONNECT"
-=======
 rootProject.name = "UTConnect"
->>>>>>> 2a84b58246ea5ec549d55d9ef95d8801c3333cba
 include(":app")
