@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.login"
+    namespace = "com.example.utconnect"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.login"
+        applicationId = "com.example.utconnect"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -61,6 +61,7 @@ dependencies {
     implementation(libs.supabase.postgrest)
     implementation(libs.supabase.auth)
     implementation(libs.supabase.realtime)
+    implementation(libs.supabase.storage)
 
     // Ktor
     implementation(libs.ktor.client.core)
