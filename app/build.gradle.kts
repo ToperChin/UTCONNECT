@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    alias(libs.plugins.kotlin.serialization) // Asegúrate que esté definido en libs.versions.toml
+    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
@@ -29,7 +29,6 @@ android {
         }
     }
 
-    // CAMBIO IMPORTANTE: Supabase 2.x y Ktor requieren Java 17 o superior
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
@@ -41,7 +40,6 @@ android {
 }
 
 kotlin {
-    // CAMBIO IMPORTANTE: Alinear el toolchain con Java 17
     jvmToolchain(17)
 }
 
@@ -56,17 +54,17 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.material.icons.extended)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
 
-    // Supabase (Usando el BOM que ya tienes definido)
+    // Supabase
     implementation(platform(libs.supabase.bom))
     implementation(libs.supabase.postgrest)
-    implementation(libs.supabase.auth) // Nota: Antes se llamaba 'gotrue', el BOM lo gestiona
+    implementation(libs.supabase.auth)
     implementation(libs.supabase.realtime)
 
-    // Ktor (Necesario para que el cliente de Supabase funcione en Android)
+    // Ktor
     implementation(libs.ktor.client.core)
     implementation(libs.ktor.client.android)
-    implementation(libs.ktor.client.cio) // Motor alternativo muy recomendado
 
     // Serialization
     implementation(libs.kotlinx.serialization.json)
