@@ -1,5 +1,9 @@
 <resources>
 <<<<<<< HEAD
+    <string name="app_name">LOGIN</string>
+</resources>
+=======
+<<<<<<< HEAD
     <string name="app_name">UTCONNECT</string>
 </resources>
 =======
@@ -8,3 +12,4 @@
     <string name="login_button">Iniciar sesión</string>
 </resources>
 >>>>>>> 2a84b58246ea5ec549d55d9ef95d8801c3333cba
+>>>>>>> 5607451835ba4d6a31156a48f91a5ed07bc755fa

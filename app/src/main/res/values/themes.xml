@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <<<<<<< HEAD
+
+    <style name="Theme.LOGIN" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
+=======
+<<<<<<< HEAD
     <style name="Theme.UTCONNECT" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">#008080</item>
         <item name="colorSecondary">#004D40</item>
@@ -13,3 +18,4 @@
 >>>>>>> 2a84b58246ea5ec549d55d9ef95d8801c3333cba
     </style>
 </resources>
+>>>>>>> 5607451835ba4d6a31156a48f91a5ed07bc755fa
