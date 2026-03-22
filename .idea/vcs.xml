@@ -2,9 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$/utconnect" vcs="Git" />
-=======
->>>>>>> 2a84b58246ea5ec549d55d9ef95d8801c3333cba
   </component>
 </project>
